@@ -1,1 +1,13 @@
-<p>shorter-form works!</p>
+<mat-card class="card">
+
+  <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>URL</mat-label>
+        <input matInput #message maxlength="1024" placeholder="http://yourlink.com/.....">
+        <mat-hint align="start"><strong></strong> </mat-hint>
+        <mat-hint align="end">{{message.value.length}} / 1024</mat-hint>
+      </mat-form-field>
+    </form>
+    <button mat-raised-button color="primary">Get Link!</button>
+  
+</mat-card>
