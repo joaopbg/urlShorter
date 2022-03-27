@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class BitlyService {
 
-  private link : any
+  private longLink : any
 
   private token = '0077062cbffbc8362ee9ed3ba3f1cf0596493d7d'
 
