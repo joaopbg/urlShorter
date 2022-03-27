@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BitlyService } from 'src/app/services/bitly.service';
 
 @Component({
   selector: 'app-shorter-form',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShorterFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(private bitlyService: BitlyService) { }
 
   ngOnInit(): void {
   }
